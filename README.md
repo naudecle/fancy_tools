@@ -3,9 +3,9 @@
 # 1
 Quand vous etes dans votre terminal,cloner mon projet dans n'importe quel
 dossier,en utlisant, la commande:
-```sh
-$>> git clone https://github.com/naudecle/fancy_tools.git
-``` 
+
+###git clone https://github.com/naudecle/fancy_tools.git
+
 Apres, dans ce meme dossier,entrer d'abord dans le dossier fancy_tools
 ensuite,vous allez executer la commande
 suivante:
