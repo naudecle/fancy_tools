@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 mkdir $HOME/src
 
 way="$HOME/src/fancy_tools"
@@ -27,15 +26,10 @@ fi
 
 if [ -e "$e" <<< "$HOME" ]
 then
-	
+
 	cp ~/fancy_tools/bin/updateFancyTools ~/bin/updateFancyTools
 else
 	mkdir ~/bin
-	export PATH=$PATH:$HOME/bin
+	echo "export PATH=$PATH:$HOME/bin" >> ~/.bashrc
 	cp ~/fancy_tools/bin/updateFancyTools ~/bin/updateFancyTools
 fi
-
-
-
-
-		
